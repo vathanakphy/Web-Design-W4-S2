@@ -1,0 +1,110 @@
+.pricing-container{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   column-gap: 5vw;
+   row-gap: 5vh;
+   margin-top: 15vh;
+}
+.pricing-plan{
+   background-color: white;
+   box-shadow: 2px 2px 20px rgb(124, 116, 116);
+   height: 25rem;
+   width: 15rem;
+   display: inline-flex;
+   border-radius: 1rem;
+   align-items: center;
+   flex-direction: column;
+}
+.plan-title{
+   width: 100%;
+   height: 3em;
+   background-image: linear-gradient(to Right, #00FFED,#3389f1);
+   border-top-left-radius: 1rem;
+   border-top-Right-radius: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.4rem;
+   font-weight: bold;
+   color: white;
+}
+.plan-price {
+   display: flex;
+   align-items: start;
+   padding-top: 20px;
+
+}
+.plan-price strong{
+   color: #24cfc4;
+   font-size: 2rem;
+}
+.plan-price span{
+   margin-top :6px; ;
+   color: #24cfc4;
+   align-items: flex-start;
+}
+.plan-price p{
+   color: #24cfc4;
+   align-items: flex-start;
+}
+.plan-features{
+   margin-right: auto;
+   margin-bottom: 40px;
+}
+.plan-features li{
+   width: 100%;
+   list-style: none;
+   color: gray;
+   border-bottom: 1px solid gainsboro;
+   padding: 10px 0px 10px 0px;
+}
+.plan-features li:nth-child(1){
+   border-top: 1px solid gainsboro;
+}
+.plan-button{
+   width: 60%;
+   height: 9%;
+   border: none;
+   color: white;
+   background-image: linear-gradient(to Right, #00FFED,#3389f1);
+   border-radius: 3em;
+   font-size: 1.1em;
+   font-weight: bold;
+}
+.plan-button:hover{
+   cursor: pointer;
+}
+.pricing-plan:nth-child(2) .plan-title{
+   background-image: linear-gradient(to Right,#3389f1,#F869D5);
+}
+.pricing-plan:nth-child(2) .plan-button{
+   background-image: linear-gradient(to Right,#3389f1,#F869D5);
+}
+.pricing-plan:nth-child(2)> .plan-price span{
+   color: #2a6ec1;
+}
+.pricing-plan:nth-child(2)> .plan-price p{
+   color: #2a6ec1;
+}
+.pricing-plan:nth-child(2)> .plan-price strong{
+   color: #2a6ec1;
+}
+.pricing-plan:nth-child(3) .plan-title{
+   background-image: linear-gradient(to Right,#F869D5,#5650DE);
+}
+.pricing-plan:nth-child(3) .plan-button{
+   background-image: linear-gradient(to Right,#F869D5,#5650DE);
+}
+.pricing-plan:nth-child(3) .plan-button{
+   background-image: linear-gradient(to Right,#3389f1,#F869D5);
+}
+.pricing-plan:nth-child(3)> .plan-price span{
+   color: #ae5698;
+}
+.pricing-plan:nth-child(3)> .plan-price p{
+   color: #ae5698;
+}
+.pricing-plan:nth-child(3)> .plan-price strong{
+   color: #ae5698;
+}
