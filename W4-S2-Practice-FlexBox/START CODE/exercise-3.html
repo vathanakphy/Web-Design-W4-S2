@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=], initial-scale=1.0">
+   <title>Exercise-3</title>
+   <style>
+      *{
+         border-radius: 0.5rem;
+         /* margin: 1rem; */
+      }
+      body{
+         padding: 0;
+         margin: 0;
+      }
+      .container{
+         display: flex;
+         flex-direction: column;
+         row-gap: 1rem;
+         width: 100%;
+      }
+      header{
+         background-color: #1e90ff;
+         height: 5rem;
+         width: 100%;
+         align-self: flex-start;
+         flex-grow: 0;
+      }
+      .midle{
+         display: flex;
+         flex-grow: 1;
+         column-gap: 1rem;
+         height: 25rem;
+      }
+      main{
+         background-color: #3cb371;
+         width: 70vw;
+         padding: 3rem 0rem 0rem 0rem;
+         overflow: hidden;
+         /* display: flex; */
+         /* flex-wrap: wrap; */
+      }
+      .item{
+         background-color: #2f8d59;
+         margin:0.5rem;
+         width: 20vh;
+         height: 20vh;
+         display: inline-flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .sidebar{
+         background-color: #ff6347;
+         width: 30vw;
+      }
+      footer{
+         background-color: #4169e1;
+         height: 5rem;
+         width: 100%;
+         align-self: flex-end;
+         flex-grow: 0;
+      }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <header></header>
+      <div class="midle">
+         <main>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+         </main>
+         <div class="sidebar"></div>
+      </div>
+      <footer></footer>
+   </div>
+</body>
+</html>
